@@ -1,0 +1,45 @@
+.post{
+    margin-top: 10px;
+    display : flex ;
+    align-items:  flex-start;
+    border-bottom: 1px solid var(--b-social-media);
+    padding-bottom: 10px;
+
+}
+.post:hover{
+    background-color: var(--b-social-media-background);
+    transition : background-color 800ms ease-out ;
+
+}
+.post__body {
+    flex:1;
+    padding :10px;
+}
+.post__footer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+.post__avatar{
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.post__badge{
+    font-size :14px !important;
+}
+.post__headerUsername {
+    font-weight:  600;
+    font-size: 15px;
+    color: grey;
+}
+.post__description {
+    font-size: 15px;
+    margin-bottom:  10px;
+}
+.post__headerText >h3 {
+    font-size: 15px ;
+    margin-bottom: 5px;
+}
+
